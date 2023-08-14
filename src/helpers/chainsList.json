@@ -1,0 +1,54 @@
+{
+	"Mainnet": [		
+		{
+			"chainId": "bitcanna-1",
+			"network": 	"BitCanna",
+			"network_type": "mainnet",
+			"icon": "../img/bitcanna.png",
+			"description": "Decentralized payment network and supply chain for legal cannabis industry.",
+			"chain_json": "./../chain-registry-master/bitcanna/chain.json",
+			"assetlist_json": "./../chain-registry-master/bitcanna/assetlist.json",
+			
+			"services": {
+				"Dashboard": "http://185.193.66.249:3000/d/dd5b940d-dc34-490f-afaf-77af11edbb23/1-dashboard?orgId=1&refresh=10s&from=now-6h&to=now",
+				"RPC": "http://185.193.66.249:26657",
+				"REST": "http://185.193.66.249:1317",	
+				"gRPC": "http://185.193.66.249:9090"
+			},
+			"link_on_stake": "https://restake.app/bitcanna/bcnavaloper1vdnt46tl57muhuqzfesa8ttnfv7z970wvgadel",
+
+			"img": "./../chain-registry-master/bitcanna/img/bcna.png",
+			"title": "Gaming streaming portal",
+			"skills": "React, Node.js, MongoDB",
+			
+			"imgBig": "./../img/projects/01-big.jpg",
+			"gitHubLink": "https://github.com"
+			
+		}
+	
+	],
+	
+	"Testnet": [
+		{
+			"chainId": "lava-testnet-1",
+			"network": 	"Lava",
+			"network_type": "testnet",
+			"icon": "./../img/lava.png",
+			"description": "Lava aggregates node providers to give wallets, block explorers and dApps an ultra-resilient RPC endpoint for 20+ networks.",
+			
+			"services": {
+				"Dashboard": "http://167.86.82.139:3000/d/dd5b940d-dc34-490f-afaf-77af11edbb23/1-dashboard?orgId=1&refresh=10s",
+				"RPC": "http://167.86.82.139:26647",
+				"REST": "http://167.86.82.139:1307",	
+				"gRPC": "http://167.86.82.139:9080"
+			},
+			"link_on_stake": "https://lava.explorers.guru/validator/lava@valoper1vu3xj8yv8280mx5pt64q4xg37692txwmpr3rfk",
+			"title": "Video service",
+			"img": "./../img/projects/02.jpg",
+			"imgBig": "./../img/projects/02-big.jpg",
+			"skills": "React, PHP, MySql",
+			"gitHubLink": "https://github.com"
+		}	
+		
+	]
+}
